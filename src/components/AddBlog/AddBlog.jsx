@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./AddBlog.css";
-import upload_area from "../../Assets/upload_area.svg";
+import upload_area from "/assets/upload_area.svg";
 import { message } from "antd";
 
 const AddBlog = () => {

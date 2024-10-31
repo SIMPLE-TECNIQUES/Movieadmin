@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { message, Button, Input } from 'antd';
 import './ListBlog.css';
-import upload_area from "../../Assets/upload_area.svg";
+import upload_area from "/assets/upload_area.svg";
 
 const ListBlog = () => {
     const updateFormRef = useRef(null);
